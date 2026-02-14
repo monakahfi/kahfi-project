@@ -1,4 +1,6 @@
 
+
+import Headers from "./Headers"
 import NaveBar from "./NaveBar"
 
 interface ILayoutprops{
@@ -8,6 +10,7 @@ interface ILayoutprops{
 function Layout({children}:ILayoutprops) {
   return (
     <div>
+      <Headers/>
         <NaveBar/>
         {children}
     </div>

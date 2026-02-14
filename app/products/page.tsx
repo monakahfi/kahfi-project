@@ -1,9 +1,12 @@
-import React from 'react'
 
-function Products() {
+import Products from '../../component/Products'
+
+function Product() {
   return (
-    <div>Products</div>
+    <div>
+      <Products/>
+    </div>
   )
 }
 
-export default Products
+export default Product
