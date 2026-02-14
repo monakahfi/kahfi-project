@@ -33,7 +33,7 @@ function Users() {
       fetchProducts()
     }, [])
     
-    const pageSize = 20
+    const pageSize = 10
     const start = (page - 1) * pageSize
     const end = start + pageSize
     const paginatedUsers = users.slice(start, end)
@@ -42,7 +42,7 @@ function Users() {
     
   return (
     <Stack width="full" gap="5">
-      <Heading size="xl">Products</Heading>
+      <Heading size="xl">Users</Heading>
       <Table.Root size="sm" variant="outline" striped>
         <Table.Header>
           <Table.Row>

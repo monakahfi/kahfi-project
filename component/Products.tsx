@@ -33,7 +33,7 @@ useEffect(() => {
   fetchProducts()
 }, [])
 
-const pageSize = 20
+const pageSize = 10
 const start = (page - 1) * pageSize
 const end = start + pageSize
 const paginatedProducts = product.slice(start, end)
